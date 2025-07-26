@@ -46,7 +46,8 @@ import {
   Car,
   Tag,
   ShieldCheck,
-  NotebookPen
+  NotebookPen,
+  Globe
 } from "lucide-react";
 
 export default function Home() {
@@ -155,7 +156,7 @@ export default function Home() {
                 <span className="text-replit-orange">실무 개발 환경</span>
               </h1>
               <p className="text-xl text-slate-300 mb-8 leading-relaxed">
-                비용 절감부터 실무 활용까지, 리플릿의 모든 것을 4시간 만에 완전 정복하세요. 
+                비용 절감부터 실무 활용까지, 리플릿의 모든 것을 3시간 만에 완전 정복하세요. 
                 오프라인 강의로 직접 실습하며 배워보세요.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
@@ -170,7 +171,7 @@ export default function Home() {
               </div>
               <div className="grid grid-cols-3 gap-6 text-center">
                 <div>
-                  <div className="text-2xl font-bold text-replit-orange">4시간</div>
+                  <div className="text-2xl font-bold text-replit-orange">3시간</div>
                   <div className="text-sm text-slate-400">집중 교육</div>
                 </div>
                 <div>
@@ -206,11 +207,11 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-navy-dark mb-4">강의 커리큘럼</h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              4개의 핵심 모듈로 구성된 체계적인 커리큘럼으로 리플릿을 완전히 마스터하세요
+              5개의 핵심 모듈로 구성된 체계적인 커리큘럼으로 리플릿을 완전히 마스터하세요
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card className="hover:shadow-lg transition-shadow group">
               <CardContent className="p-8">
                 <div className="flex items-start space-x-4">
@@ -246,7 +247,7 @@ export default function Home() {
                     </p>
                     <div className="flex items-center text-replit-orange font-medium">
                       <Clock className="w-4 h-4 mr-2" />
-                      60분
+                      30분
                     </div>
                   </div>
                 </div>
@@ -267,7 +268,7 @@ export default function Home() {
                     </p>
                     <div className="flex items-center text-replit-orange font-medium">
                       <Clock className="w-4 h-4 mr-2" />
-                      60분
+                      30분
                     </div>
                   </div>
                 </div>
@@ -288,7 +289,28 @@ export default function Home() {
                     </p>
                     <div className="flex items-center text-replit-orange font-medium">
                       <Clock className="w-4 h-4 mr-2" />
-                      60분
+                      50분
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-lg transition-shadow group">
+              <CardContent className="p-8">
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-replit-orange rounded-xl flex items-center justify-center flex-shrink-0">
+                    <Globe className="text-white text-lg" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-navy-dark mb-3">도메인 연결하기</h3>
+                    <p className="text-slate-600 mb-4 leading-relaxed">
+                      커스텀 도메인 설정과 DNS 관리. 리플릿 프로젝트에 개인 도메인을 
+                      연결하여 전문적인 웹사이트를 완성하는 방법을 배웁니다.
+                    </p>
+                    <div className="flex items-center text-replit-orange font-medium">
+                      <Clock className="w-4 h-4 mr-2" />
+                      10분
                     </div>
                   </div>
                 </div>
