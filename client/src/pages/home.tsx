@@ -47,7 +47,8 @@ import {
   Tag,
   ShieldCheck,
   NotebookPen,
-  Globe
+  Globe,
+  Network
 } from "lucide-react";
 
 export default function Home() {
@@ -318,11 +319,32 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-navy-dark mb-4">강의 커리큘럼</h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              5개의 핵심 모듈로 구성된 체계적인 커리큘럼으로 리플릿을 완전히 마스터하세요
+              6개의 핵심 모듈로 구성된 체계적인 커리큘럼으로 리플릿을 완전히 마스터하세요
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <Card className="hover:shadow-lg transition-shadow group">
+              <CardContent className="p-8">
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-replit-orange rounded-xl flex items-center justify-center flex-shrink-0">
+                    <Network className="text-white text-lg" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-navy-dark mb-3">웹 서비스 구조 이해하기</h3>
+                    <p className="text-slate-600 mb-4 leading-relaxed">
+                      프론트엔드, 백엔드, 데이터베이스의 역할과 상호작용. 전체적인 웹 서비스 
+                      아키텍처를 이해하고 리플릿에서 어떻게 구현되는지 배웁니다.
+                    </p>
+                    <div className="flex items-center text-replit-orange font-medium">
+                      <Clock className="w-4 h-4 mr-2" />
+                      20분
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
             <Card className="hover:shadow-lg transition-shadow group">
               <CardContent className="p-8">
                 <div className="flex items-start space-x-4">
@@ -337,7 +359,7 @@ export default function Home() {
                     </p>
                     <div className="flex items-center text-replit-orange font-medium">
                       <Clock className="w-4 h-4 mr-2" />
-                      60분
+                      40분
                     </div>
                   </div>
                 </div>
