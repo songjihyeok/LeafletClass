@@ -532,7 +532,8 @@ export default function Home() {
                           <Textarea 
                             placeholder="이 강의를 통해 얻고 싶은 것이나 궁금한 점을 자유롭게 작성해주세요" 
                             rows={4}
-                            {...field} 
+                            {...field}
+                            value={field.value || ""}
                           />
                         </FormControl>
                         <FormMessage />
