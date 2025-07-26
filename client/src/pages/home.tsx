@@ -566,7 +566,7 @@ export default function Home() {
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+                src="/profile.jpeg"
                 alt="Professional instructor"
                 className="rounded-2xl shadow-xl w-full"
               />
