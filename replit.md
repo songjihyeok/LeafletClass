@@ -116,7 +116,15 @@ Preferred communication style: Simple, everyday language.
 ### Environment Configuration
 - **NODE_ENV**: Controls development vs production behavior
 - **DATABASE_URL**: PostgreSQL connection string (required)
+- **PORT**: Server port (defaults to 5000)
+- **VITE_API_URL**: Frontend API base URL (defaults to /api)
 - **REPL_ID**: Replit-specific environment detection
+
+Environment variables are managed through:
+- `dotenv` package for loading .env files
+- `cross-env` for cross-platform environment variable setting
+- Centralized configuration in `server/config.ts`
+- `.env.example` file for documentation
 
 ### Key Architectural Decisions
 
