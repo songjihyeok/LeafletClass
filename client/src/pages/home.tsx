@@ -143,7 +143,7 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-navy-dark via-slate-800 to-navy-light text-white py-20">
+      <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-700 text-white py-20">
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -171,7 +171,7 @@ export default function Home() {
                 <Button 
                   variant="outline" 
                   size="lg"
-                  className="border-white text-white hover:bg-white hover:text-navy-dark"
+                  className="border-white text-white hover:bg-white hover:text-slate-900"
                 >
                   <Play className="w-5 h-5 mr-2" />
                   강의 미리보기
@@ -201,7 +201,7 @@ export default function Home() {
               <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-2">
                   <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-                  <span className="text-navy-dark font-medium">실시간 코딩 실습</span>
+                  <span className="text-slate-900 font-medium">실시간 코딩 실습</span>
                 </div>
               </div>
             </div>
@@ -739,7 +739,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-navy-dark text-white py-12">
+      <footer className="bg-slate-900 text-white py-12">
         <div className="max-w-6xl mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-3 mb-4 md:mb-0">

@@ -61,6 +61,10 @@ export default {
           border: "var(--sidebar-border)",
           ring: "var(--sidebar-ring)",
         },
+        "replit-orange": "var(--replit-orange)",
+        "replit-light": "var(--replit-light)",
+        "navy-dark": "var(--navy-dark)",
+        "navy-light": "var(--navy-light)",
       },
       keyframes: {
         "accordion-down": {
