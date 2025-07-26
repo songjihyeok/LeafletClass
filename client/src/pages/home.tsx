@@ -145,7 +145,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-700 text-white py-20">
-        <div className="max-w-6xl mx-auto px-4">
+        <div className="max-w-6xl mx-auto px-8 md:px-12 lg:px-16">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <Badge className="inline-flex items-center bg-replit-orange/20 text-orange-200 px-4 py-2 mb-6">
