@@ -152,12 +152,12 @@ export default function Home() {
                 단 10명 한정 모집
               </Badge>
               <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
-                리플릿으로 시작하는<br />
-                <span className="text-replit-orange">실무 개발 환경</span>
+                <span className="text-red-400">30만원 낭비하기 전에</span><br />
+                <span className="text-replit-orange">3만원으로 해결하세요</span>
               </h1>
               <p className="text-xl text-slate-300 mb-8 leading-relaxed">
-                비용 절감부터 실무 활용까지, 리플릿의 모든 것을 3시간 만에 완전 정복하세요. 
-                오프라인 강의로 직접 실습하며 배워보세요.
+                리플릿 잘못 쓰면 월 30만원씩 나갑니다. 올바른 사용법을 3시간에 배워서 
+                연간 수백만원을 절약하세요. 실무에 바로 적용 가능한 노하우를 전수합니다.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
                 <Button 
@@ -171,16 +171,16 @@ export default function Home() {
               </div>
               <div className="grid grid-cols-3 gap-6 text-center">
                 <div>
+                  <div className="text-2xl font-bold text-red-400">-30만원</div>
+                  <div className="text-sm text-slate-400">월 비용 절감</div>
+                </div>
+                <div>
                   <div className="text-2xl font-bold text-replit-orange">3시간</div>
                   <div className="text-sm text-slate-400">집중 교육</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-replit-orange">10명</div>
-                  <div className="text-sm text-slate-400">소수 정예</div>
-                </div>
-                <div>
-                  <div className="text-2xl font-bold text-replit-orange">3만원</div>
-                  <div className="text-sm text-slate-400">합리적 가격</div>
+                  <div className="text-2xl font-bold text-green-400">3만원</div>
+                  <div className="text-sm text-slate-400">일회성 투자</div>
                 </div>
               </div>
             </div>
@@ -196,6 +196,117 @@ export default function Home() {
                   <span className="text-slate-900 font-medium">실시간 코딩 실습</span>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Cost Savings Section */}
+      <section className="py-20 bg-red-50">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-navy-dark mb-4">
+              💸 이런 실수로 돈 날리고 계시나요?
+            </h2>
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+              대부분의 개발자들이 모르고 하는 리플릿 사용 실수들
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+            <div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg border border-red-200">
+                <h3 className="text-2xl font-bold text-red-600 mb-6">❌ 잘못된 사용법</h3>
+                <div className="space-y-4">
+                  <div className="flex items-start space-x-3">
+                    <div className="w-6 h-6 bg-red-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                      <span className="text-red-600 text-sm">✗</span>
+                    </div>
+                    <div>
+                      <div className="font-semibold text-slate-800">무료 티어 한계 모르고 사용</div>
+                      <div className="text-slate-600">월 15만원 추가 요금</div>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="w-6 h-6 bg-red-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                      <span className="text-red-600 text-sm">✗</span>
+                    </div>
+                    <div>
+                      <div className="font-semibold text-slate-800">비효율적인 프로젝트 구조</div>
+                      <div className="text-slate-600">월 10만원 추가 요금</div>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="w-6 h-6 bg-red-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                      <span className="text-red-600 text-sm">✗</span>
+                    </div>
+                    <div>
+                      <div className="font-semibold text-slate-800">불필요한 유료 기능 사용</div>
+                      <div className="text-slate-600">월 5만원 추가 요금</div>
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-6 pt-6 border-t border-red-100">
+                  <div className="text-2xl font-bold text-red-600">월 30만원+ 손실</div>
+                  <div className="text-slate-600">연간 360만원 이상</div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg border border-green-200">
+                <h3 className="text-2xl font-bold text-green-600 mb-6">✅ 올바른 사용법</h3>
+                <div className="space-y-4">
+                  <div className="flex items-start space-x-3">
+                    <div className="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                      <span className="text-green-600 text-sm">✓</span>
+                    </div>
+                    <div>
+                      <div className="font-semibold text-slate-800">무료 티어 최대 활용법</div>
+                      <div className="text-slate-600">월 15만원 절약</div>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                      <span className="text-green-600 text-sm">✓</span>
+                    </div>
+                    <div>
+                      <div className="font-semibold text-slate-800">효율적인 프로젝트 관리</div>
+                      <div className="text-slate-600">월 10만원 절약</div>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                      <span className="text-green-600 text-sm">✓</span>
+                    </div>
+                    <div>
+                      <div className="font-semibold text-slate-800">필수 기능만 선별 사용</div>
+                      <div className="text-slate-600">월 5만원 절약</div>
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-6 pt-6 border-t border-green-100">
+                  <div className="text-2xl font-bold text-green-600">월 30만원+ 절약</div>
+                  <div className="text-slate-600">연간 360만원 이상</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <div className="bg-gradient-to-r from-replit-orange to-orange-600 p-8 rounded-2xl text-white">
+              <h3 className="text-3xl font-bold mb-4">3만원 투자로 연간 360만원 절약</h3>
+              <p className="text-xl text-orange-100 mb-6">
+                ROI 12,000% - 1년간 120배의 가치를 돌려받으세요
+              </p>
+              <Button 
+                onClick={scrollToRegistration}
+                size="lg"
+                className="bg-white text-replit-orange hover:bg-orange-50"
+              >
+                <CalendarPlus className="w-5 h-5 mr-2" />
+                지금 신청해서 돈 아끼기
+              </Button>
             </div>
           </div>
         </div>
@@ -395,9 +506,10 @@ export default function Home() {
               </Badge>
               
               <div className="mb-8">
+                <div className="text-lg text-orange-100 mb-2">💰 평생 360만원 절약하는</div>
                 <div className="text-5xl md:text-6xl font-bold mb-2">30,000원</div>
-                <div className="text-xl opacity-90">일반 강의 대비 50% 할인</div>
-                <div className="text-sm opacity-75 line-through">정가 60,000원</div>
+                <div className="text-xl opacity-90">ROI 12,000% 보장 투자</div>
+                <div className="text-sm opacity-75">월 30만원씩 나가는 돈을 아끼세요</div>
               </div>
 
               <div className="grid md:grid-cols-3 gap-8 mb-10">
