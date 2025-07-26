@@ -152,12 +152,12 @@ export default function Home() {
                 단 10명 한정 모집
               </Badge>
               <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
-                <span className="text-red-400">30만원 낭비하기 전에</span><br />
-                <span className="text-replit-orange">3만원으로 해결하세요</span>
+                리플릿으로 시작하는<br />
+                <span className="text-replit-orange">실무 개발 환경</span>
               </h1>
               <p className="text-xl text-slate-300 mb-8 leading-relaxed">
-                리플릿 잘못 쓰면 월 30만원씩 나갑니다. 올바른 사용법을 3시간에 배워서 
-                연간 수백만원을 절약하세요. 실무에 바로 적용 가능한 노하우를 전수합니다.
+                비용 절감부터 실무 활용까지, 리플릿의 모든 것을 3시간 만에 완전 정복하세요. 
+                오프라인 강의로 직접 실습하며 배워보세요.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
                 <Button 
@@ -171,16 +171,16 @@ export default function Home() {
               </div>
               <div className="grid grid-cols-3 gap-6 text-center">
                 <div>
-                  <div className="text-2xl font-bold text-red-400">-30만원</div>
-                  <div className="text-sm text-slate-400">월 비용 절감</div>
-                </div>
-                <div>
                   <div className="text-2xl font-bold text-replit-orange">3시간</div>
                   <div className="text-sm text-slate-400">집중 교육</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-green-400">3만원</div>
-                  <div className="text-sm text-slate-400">일회성 투자</div>
+                  <div className="text-2xl font-bold text-replit-orange">10명</div>
+                  <div className="text-sm text-slate-400">소수 정예</div>
+                </div>
+                <div>
+                  <div className="text-2xl font-bold text-replit-orange">3만원</div>
+                  <div className="text-sm text-slate-400">합리적 가격</div>
                 </div>
               </div>
             </div>
