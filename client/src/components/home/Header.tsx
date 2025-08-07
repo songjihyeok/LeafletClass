@@ -15,7 +15,7 @@ export function Header({ onScrollToRegistration }: HeaderProps) {
               <Code className="text-white text-sm" />
             </div>
             <h1 className="text-xl font-bold text-navy-dark">
-              리플릿 시작하기 클래스
+              바이브 코딩 아카데미
             </h1>
           </div>
           <Button

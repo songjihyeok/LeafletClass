@@ -1,5 +1,13 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Calendar, Clock, Coffee, MapPin, TrainFront, Car, Laptop } from "lucide-react";
+import {
+  Calendar,
+  Clock,
+  Coffee,
+  MapPin,
+  TrainFront,
+  Car,
+  Laptop,
+} from "lucide-react";
 
 export function ScheduleInfo() {
   return (
@@ -29,7 +37,7 @@ export function ScheduleInfo() {
                     <div className="space-y-2 text-slate-600">
                       <div className="flex items-center">
                         <Calendar className="mr-3 text-replit-orange w-5 h-5" />
-                        <span>2024년 8월 9일 (토)</span>
+                        <span>2024년 8월 23일 (토)</span>
                       </div>
                       <div className="flex items-center">
                         <Clock className="mr-3 text-replit-orange w-5 h-5" />
@@ -59,9 +67,7 @@ export function ScheduleInfo() {
                       <div className="font-semibold text-navy-dark">
                         스파크 플러스 신논현점
                       </div>
-                      <div>
-                        서울 강남구 봉은사로 125 리스트빌딩 B2, B1, 2층
-                      </div>
+                      <div>서울 강남구 봉은사로 125 리스트빌딩 B2, B1, 2층</div>
                       <div className="flex items-center">
                         <TrainFront className="mr-3 text-replit-orange w-5 h-5" />
                         <span>신논현역 3번 출구에서 322m</span>

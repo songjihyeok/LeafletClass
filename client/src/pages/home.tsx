@@ -21,25 +21,15 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-slate-50">
       <Header onScrollToRegistration={scrollToRegistration} />
-
       <HeroSection onScrollToRegistration={scrollToRegistration} />
-
       <CurriculumSection />
-
       <InstructorSection />
-
       <PortfolioSection />
-
       <PricingSection onScrollToRegistration={scrollToRegistration} />
-
       <RegistrationForm />
-
       <ScheduleInfo />
-
       <FAQSection />
-
       <ContactSection onScrollToRegistration={scrollToRegistration} />
-
       <Footer />
     </div>
   );

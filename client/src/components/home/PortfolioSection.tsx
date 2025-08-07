@@ -3,41 +3,23 @@ import { Badge } from "@/components/ui/badge";
 
 const portfolioItems = [
   {
-    title: "이커머스 플랫폼",
-    description: "React와 Node.js로 구축한 풀스택 온라인 쇼핑몰. 결제 시스템과 재고 관리 기능 포함.",
+    title: "CVS 트레커",
+    description: "개발을 1도 모르는 사람이 만든 CVS 관리 시스템. 강사를 통해 버그 해결, 기능 추가, UI 개선을 받아 현재 운영중입니다",
     image: "https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=450",
-    tech: ["React", "Node.js", "PostgreSQL"]
+    tech: ["React", "Node.js", "Replit"]
   },
   {
-    title: "실시간 대시보드",
-    description: "WebSocket을 활용한 실시간 데이터 시각화 대시보드. 차트와 그래프로 데이터 인사이트 제공.",
+    title: "같아 가요",
+    description: "인증된 사용자들이 모임을 만들고 참여할 수 있는 플랫폼. 모임 생성, 참여, 관리 기능을 제공합니다. 강사를 통해 UI/UX 개선과 기능 추가 받아 MVP 테스팅 진행중입니다",
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=450",
-    tech: ["Vue.js", "Socket.io", "D3.js"]
+    tech: ["React", "Node.js", "Replit", "cursor"]
   },
   {
-    title: "소셜 미디어 앱",
-    description: "사용자 인증, 실시간 채팅, 피드 기능을 갖춘 소셜 네트워킹 서비스.",
+    title: "AI 트레이너 서비스",
+    description: "인공지능 기반의 개인 트레이너 서비스. 운동 루틴 제공, 관리 서비스.",
     image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=450",
-    tech: ["Next.js", "Firebase", "Tailwind"]
+    tech: ["React.js", "Node.js", "Tailwind"]
   },
-  {
-    title: "업무 관리 시스템",
-    description: "칸반 보드와 타임라인을 활용한 프로젝트 관리 도구. 팀 협업 기능 포함.",
-    image: "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=450",
-    tech: ["Angular", "Express", "MongoDB"]
-  },
-  {
-    title: "온라인 학습 플랫폼",
-    description: "동영상 스트리밍과 퀴즈 기능을 갖춘 교육 플랫폼. 학습 진도 추적 시스템 구현.",
-    image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=450",
-    tech: ["React", "Python", "Redis"]
-  },
-  {
-    title: "예약 관리 시스템",
-    description: "캘린더 기반 예약 시스템과 자동 알림 기능. 결제 연동 및 대기자 관리 기능 포함.",
-    image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=450",
-    tech: ["Vue.js", "Laravel", "MySQL"]
-  }
 ];
 
 export function PortfolioSection() {
@@ -86,7 +68,7 @@ export function PortfolioSection() {
           <Card className="bg-gradient-to-r from-replit-orange to-orange-600 border-0 text-white inline-block">
             <CardContent className="p-6">
               <p className="text-lg mb-2">
-                이 모든 프로젝트가 리플릿으로 제작되었습니다
+                이 프로젝트들은 리플릿으로 제작되었습니다
               </p>
               <p className="text-sm opacity-90">
                 강의를 통해 여러분도 이런 프로젝트를 만들 수 있습니다
