@@ -37,7 +37,7 @@ export function ScheduleInfo() {
                     <div className="space-y-2 text-slate-600">
                       <div className="flex items-center">
                         <Calendar className="mr-3 text-replit-orange w-5 h-5" />
-                        <span>2024년 8월 23일 (토)</span>
+                        <span>2025년 8월 23일 (토)</span>
                       </div>
                       <div className="flex items-center">
                         <Clock className="mr-3 text-replit-orange w-5 h-5" />
