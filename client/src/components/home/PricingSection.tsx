@@ -7,7 +7,9 @@ interface PricingSectionProps {
   onScrollToRegistration: () => void;
 }
 
-export function PricingSection({ onScrollToRegistration }: PricingSectionProps) {
+export function PricingSection({
+  onScrollToRegistration,
+}: PricingSectionProps) {
   return (
     <section className="py-20 bg-white">
       <div className="max-w-4xl mx-auto px-4">
@@ -55,7 +57,7 @@ export function PricingSection({ onScrollToRegistration }: PricingSectionProps) 
                 <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Clock className="text-2xl" />
                 </div>
-                <div className="font-semibold">4시간 집중</div>
+                <div className="font-semibold">3시간 집중</div>
                 <div className="text-sm opacity-75">알찬 커리큘럼</div>
               </div>
               <div className="text-center">
