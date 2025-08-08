@@ -31,6 +31,7 @@ import { NotebookPen } from "lucide-react";
 
 export function RegistrationForm() {
   const { toast } = useToast();
+  const isFull = true; // 인원이 꽉 찬 상태
 
   const form = useForm<InsertRegistration>({
     resolver: zodResolver(insertRegistrationSchema),
@@ -65,6 +66,14 @@ export function RegistrationForm() {
   });
 
   const onSubmit = (data: InsertRegistration) => {
+    if (isFull) {
+      toast({
+        title: "신청 마감",
+        description: "인원이 모두 완료되었습니다.",
+        variant: "destructive",
+      });
+      return;
+    }
     registrationMutation.mutate(data);
   };
 
@@ -76,7 +85,9 @@ export function RegistrationForm() {
             수강 신청
           </h2>
           <p className="text-xl text-slate-600">
-            아래 정보를 입력하고 레플릿 마스터가 되어보세요
+            {isFull
+              ? "죄송합니다. 모집이 마감되었습니다. 다음 강의를 기다려주세요."
+              : "아래 정보를 입력하고 레플릿 마스터가 되어보세요"}
           </p>
         </div>
 
@@ -206,12 +217,18 @@ export function RegistrationForm() {
 
                 <Button
                   type="submit"
-                  className="w-full bg-replit-orange hover:bg-orange-600 text-white py-4 text-lg"
+                  className={`w-full py-4 text-lg ${
+                    isFull
+                      ? "bg-gray-400 cursor-not-allowed"
+                      : "bg-replit-orange hover:bg-orange-600"
+                  } text-white`}
                   size="lg"
-                  disabled={registrationMutation.isPending}
+                  disabled={registrationMutation.isPending || isFull}
                 >
                   <NotebookPen className="w-5 h-5 mr-2" />
-                  {registrationMutation.isPending
+                  {isFull
+                    ? "신청 마감"
+                    : registrationMutation.isPending
                     ? "신청 중..."
                     : "수강 신청 완료하기"}
                 </Button>
