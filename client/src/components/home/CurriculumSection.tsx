@@ -26,7 +26,7 @@ const curriculumItems = [
   },
   {
     icon: Image,
-    title: "리플렛 개발시 필요한 개념 숙지",
+    title: "레플렛 개발시 필요한 개념 숙지",
     description:
       "이미지 관리하는 법, 데이터 베이스 관리하고 보는 법, 로그인 관리하는 법",
     duration: "20분",
@@ -42,13 +42,13 @@ const curriculumItems = [
     icon: Globe,
     title: "내 노트북에서 실행하기",
     description:
-      "리플렛에서 가져온 코드를 가지고 내 노트북에서 실행시켜봅니다. 환경변수, 포트 개념 이해해봅니다.",
+      "레플렛에서 가져온 코드를 가지고 내 노트북에서 실행시켜봅니다. 환경변수, 포트 개념 이해해봅니다.",
     duration: "40분",
   },
   {
     icon: Shield,
-    title: "애프터 리플렛",
-    description: "리플렛으로 만든 서비스 고도화하기, 기획자의 커서 이용법",
+    title: "애프터 레플릿",
+    description: "레플릿으로 만든 서비스 고도화하기, 기획자의 커서 이용법",
     duration: "30분",
   },
 ];
