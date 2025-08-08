@@ -6,7 +6,9 @@ interface ContactSectionProps {
   onScrollToRegistration: () => void;
 }
 
-export function ContactSection({ onScrollToRegistration }: ContactSectionProps) {
+export function ContactSection({
+  onScrollToRegistration,
+}: ContactSectionProps) {
   return (
     <section className="py-20 bg-white">
       <div className="max-w-4xl mx-auto px-4 text-center">
@@ -23,23 +25,40 @@ export function ContactSection({ onScrollToRegistration }: ContactSectionProps) 
               <Mail className="text-replit-orange text-xl" />
             </div>
             <h3 className="font-bold text-navy-dark mb-2">이메일</h3>
-            <p className="text-slate-600">greyzerocompany@gmail.com</p>
+            <a
+              href="mailto:greyzerocompany@gmail.com"
+              className="text-replit-orange hover:text-replit-orange"
+            >
+              greyzerocompany@gmail.com
+            </a>
           </div>
           <div className="text-center">
             <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
               <Phone className="text-replit-orange text-xl" />
             </div>
             <h3 className="font-bold text-navy-dark mb-2">서비스 홈페이지</h3>
-            <p className="text-slate-600">https://vibecodinghelpers.com</p>
+            <a
+              href="https://vibecodinghelpers.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-replit-orange hover:text-replit-orange"
+            >
+              https://vibecodinghelpers.com
+            </a>
           </div>
           <div className="text-center">
             <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
               <MessageCircle className="text-replit-orange text-xl" />
             </div>
             <h3 className="font-bold text-navy-dark mb-2">오픈 카톡방</h3>
-            <p className="text-slate-600">
+            <a
+              href="https://open.kakao.com/o/goZELXrh"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-replit-orange hover:text-replit-orange"
+            >
               https://open.kakao.com/o/goZELXrh
-            </p>
+            </a>
           </div>
         </div>
 
