@@ -16,14 +16,12 @@ export function HeroSection({ onScrollToRegistration }: HeroSectionProps) {
               <Flame className="w-4 h-4 mr-2" />단 10명 한정 모집
             </Badge>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
-              리플릿으로 시작하는
+              레플릿으로 시작하는
               <br />
-              <span className="text-replit-orange">
-                누구나 만드는 웹서비스
-              </span>
+              <span className="text-replit-orange">누구나 만드는 웹서비스</span>
             </h1>
             <p className="text-xl text-slate-300 mb-8 leading-relaxed">
-              비용 절감부터 실무 활용까지, 리플릿의 모든 것을 3시간 만에
+              비용 절감부터 실무 활용까지, 레플릿의 모든 것을 3시간 만에
               정복하세요. 오프라인 강의로 직접 실습하며 배워보세요.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mb-8">

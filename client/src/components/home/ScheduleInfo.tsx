@@ -95,7 +95,7 @@ export function ScheduleInfo() {
                     <div className="space-y-2 text-slate-600">
                       <div>• 노트북 (Windows/Mac 모두 가능)</div>
                       <div>• 인터넷 연결 가능한 환경</div>
-                      <div>• 리플릿 계정 (유료 필수)</div>
+                      <div>• 레플릿 계정 (유료 필수)</div>
                       <div>• 필기도구 및 노트</div>
                     </div>
                   </div>

@@ -76,7 +76,7 @@ export function RegistrationForm() {
             수강 신청
           </h2>
           <p className="text-xl text-slate-600">
-            아래 정보를 입력하고 리플릿 마스터가 되어보세요
+            아래 정보를 입력하고 레플릿 마스터가 되어보세요
           </p>
         </div>
 
@@ -199,8 +199,8 @@ export function RegistrationForm() {
                     htmlFor="privacy"
                     className="text-slate-600 leading-relaxed text-sm"
                   >
-                    개인정보 수집 및 이용에 동의합니다. 수집된 정보는 강의
-                    운영 목적으로만 사용됩니다.
+                    개인정보 수집 및 이용에 동의합니다. 수집된 정보는 강의 운영
+                    목적으로만 사용됩니다.
                   </label>
                 </div>
 

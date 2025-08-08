@@ -35,13 +35,11 @@ export function InstructorSection() {
                 </div>
                 <div className="flex items-center space-x-3">
                   <Star className="text-replit-orange" />
-                  <span className="text-slate-700">
-                    4.5/5 외주 플랫폼 평점
-                  </span>
+                  <span className="text-slate-700">4.5/5 외주 플랫폼 평점</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Code className="text-replit-orange" />
-                  <span className="text-slate-700">리플릿 개발 전문</span>
+                  <span className="text-slate-700">레플릿 개발 전문</span>
                 </div>
               </div>
             </div>
